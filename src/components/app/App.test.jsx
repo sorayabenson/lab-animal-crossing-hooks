@@ -1,11 +1,12 @@
 import React from 'react';
-import { render, cleanup } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import App from './App';
 
 describe('App component', () => {
-  afterEach(() => cleanup());
   it('renders App', () => {
-    const { asFragment } = render(<App />);
-    expect(asFragment()).toMatchSnapshot();
+    render(<App />);
+
+    const header = screen.getByText(`let's cross some animals!`)
+    expect(header).toMatchSnapshot(); 
   });
 });
