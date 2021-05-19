@@ -5,7 +5,14 @@ import Detail from './Detail';
 
 describe('Detail Component', () => {
     it('renders Detail', () => {
-        render(<Detail />);
+        render(
+            <Detail 
+                match={{
+                    params: {
+                        id: 46
+                    },
+                }}/>
+        );
 
         
     })

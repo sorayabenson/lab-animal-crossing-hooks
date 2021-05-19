@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Spinner from '../components/Spinner';
 import VillagerList from '../components/villagers/VillagerList';
-import openGates from '../services/animalCrossingApi';
+import { openGates } from '../services/animalCrossingApi';
 
 const Villager = () => {
     const [loading, setLoading] = useState(true); 

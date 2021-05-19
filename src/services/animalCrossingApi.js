@@ -1,17 +1,18 @@
-import { packVillagers } from './munge-utils';
+import { packVillagers, boxVillager } from './munge-utils';
 
-export default async function openGates() {
+export const openGates = async () => {
     const res = await fetch('https://acnhapi.com/v1/villagers/');
     const data = await res.json();
  
+    //the data returned as an object with nested objects so to access the villagers I needed only the values of the object.
     const shapedData = packVillagers(Object.values(data))
     return shapedData;
 }
 
-// export default async function inviteVillager(id) {
-//     try {
-            // const res = await fetch(`https://acnhapi.com/v1/villagers/${id}`)
-//     } catch (err) {
-//         return err;
-//     }
-// }
+export const inviteVillager = async (id) => {
+    const res = await fetch(`https://acnhapi.com/v1/villagers/${id}`)
+    const data = await res.json();
+
+    const shapedData = boxVillager(data)
+    return shapedData;
+}

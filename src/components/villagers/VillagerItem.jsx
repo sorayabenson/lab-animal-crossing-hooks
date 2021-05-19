@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 const VillagerItem = ({ id, image, name, catchphrase }) => {
-    console.log(id)
     return (
     
     <Link to={`/${id}`}>
