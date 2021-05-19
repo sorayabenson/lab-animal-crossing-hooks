@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const VillagerDetail = ({ image, name, catchphrase, personality, species, hobby, birthday }) => (
-    <figure aria-label='villager'>
+    <section aria-label='villager'>
         <img src={image} alt={name} />
         <h2>{name}</h2>
         <h3>{catchphrase}</h3>
@@ -10,7 +10,7 @@ const VillagerDetail = ({ image, name, catchphrase, personality, species, hobby,
         <p>{species}</p>
         <p>{hobby}</p>
         <p>{birthday}</p>
-    </figure>
+    </section>
 )
 
 VillagerDetail.propTypes = {

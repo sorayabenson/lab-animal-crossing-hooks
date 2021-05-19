@@ -12,7 +12,7 @@ export const openGates = async () => {
 export const inviteVillager = async (id) => {
     const res = await fetch(`https://acnhapi.com/v1/villagers/${id}`)
     const data = await res.json();
-
+    
     const shapedData = boxVillager(data)
     return shapedData;
 }
