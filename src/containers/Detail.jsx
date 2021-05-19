@@ -6,7 +6,7 @@ import { useParams } from 'react-router-dom';
 
 const Detail = () => {
     const [loading, setLoading] = useState(true);
-    const [villager, setVillager] = useState({})
+    const [villager, setVillager] = useState([])
 
     const { id } = useParams();
 
@@ -14,7 +14,9 @@ const Detail = () => {
         inviteVillager(id)
             .then(villager => setVillager(villager))
             .finally(() => setLoading(false))
-    });
+    }, []);
+
+    console.log(villager)
 
     if (loading) return <Spinner />
     
