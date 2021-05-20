@@ -8,6 +8,13 @@
     justify-content: flex-start;
 }
 
+.villager img {
+    height: 17rem;
+    width: auto;
+    border-radius: 3px;
+    box-shadow: #4ecdc4 3px 3px 1px;
+}
+
 .villager h2 {
     margin: 1rem;
     font-size: 1.7rem;

@@ -9,6 +9,7 @@ Array [
       aria-label="villager"
     >
       <a
+        class="villagerItem"
         href="/1"
       >
         <img
@@ -31,6 +32,7 @@ Array [
       aria-label="villager"
     >
       <a
+        class="villagerItem"
         href="/2"
       >
         <img
@@ -53,6 +55,7 @@ Array [
       aria-label="villager"
     >
       <a
+        class="villagerItem"
         href="/3"
       >
         <img
@@ -75,6 +78,7 @@ Array [
       aria-label="villager"
     >
       <a
+        class="villagerItem"
         href="/4"
       >
         <img
@@ -97,6 +101,7 @@ Array [
       aria-label="villager"
     >
       <a
+        class="villagerItem"
         href="/5"
       >
         <img
@@ -119,6 +124,7 @@ Array [
       aria-label="villager"
     >
       <a
+        class="villagerItem"
         href="/6"
       >
         <img
@@ -141,6 +147,7 @@ Array [
       aria-label="villager"
     >
       <a
+        class="villagerItem"
         href="/7"
       >
         <img
@@ -169,6 +176,7 @@ Array [
     aria-label="villager"
   >
     <a
+      class="villagerItem"
       href="/1"
     >
       <img
@@ -191,6 +199,7 @@ Array [
     aria-label="villager"
   >
     <a
+      class="villagerItem"
       href="/2"
     >
       <img
@@ -213,6 +222,7 @@ Array [
     aria-label="villager"
   >
     <a
+      class="villagerItem"
       href="/3"
     >
       <img
@@ -235,6 +245,7 @@ Array [
     aria-label="villager"
   >
     <a
+      class="villagerItem"
       href="/4"
     >
       <img
@@ -257,6 +268,7 @@ Array [
     aria-label="villager"
   >
     <a
+      class="villagerItem"
       href="/5"
     >
       <img
@@ -279,6 +291,7 @@ Array [
     aria-label="villager"
   >
     <a
+      class="villagerItem"
       href="/6"
     >
       <img
@@ -301,6 +314,7 @@ Array [
     aria-label="villager"
   >
     <a
+      class="villagerItem"
       href="/7"
     >
       <img
