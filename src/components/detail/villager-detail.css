@@ -1,0 +1,25 @@
+.villager {
+    width: 50%;
+    height: auto;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.villager h2 {
+    margin: 1rem;
+    font-size: 1.7rem;
+}
+
+.villager h3 {
+    margin: 0rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.villager p {
+    margin: 0.5rem;
+    font-size: 1.2rem;
+}

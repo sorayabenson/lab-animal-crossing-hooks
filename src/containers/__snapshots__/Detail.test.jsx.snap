@@ -17,6 +17,8 @@ exports[`Detail container renders Detail 2`] = `
 
 exports[`Detail container renders Detail 3`] = `
 <h3>
+  "
   kitty cat
+  "
 </h3>
 `;

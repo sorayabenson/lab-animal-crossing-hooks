@@ -36,7 +36,7 @@ describe('Detail container', () => {
             expect(image).toMatchSnapshot();            
             const name = screen.getByText('Kiki');
             expect(name).toMatchSnapshot();
-            const catchphrase = screen.getByText('kitty cat');
+            const catchphrase = screen.getByText('"kitty cat"');
             expect(catchphrase).toMatchSnapshot(); 
         })
     })
