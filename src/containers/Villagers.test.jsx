@@ -30,7 +30,7 @@ describe('Villager container', () => {
             </MemoryRouter>
         );
         
-        screen.getByText('circling for landing')
+        screen.getByText(`Looks like someone's on their way here!`)
 
         await waitFor(async () => {
             const ul = await screen.findAllByRole('list', { name: 'villagers' })

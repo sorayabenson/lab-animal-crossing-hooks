@@ -29,7 +29,7 @@ describe('Detail container', () => {
             </MemoryRouter>
         );
 
-        screen.getByText('circling for landing');
+        screen.getByText(`Looks like someone's on their way here!`);
         
         await waitFor(() => {
             const image = screen.getAllByAltText('Kiki');
