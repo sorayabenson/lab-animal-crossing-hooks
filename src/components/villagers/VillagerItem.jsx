@@ -7,8 +7,8 @@ const VillagerItem = ({ id, image, name, catchphrase }) => {
     
     <Link to={`/${id}`}>
         <img src={image} alt={name} />
-        <h3>{name}</h3>
-        <p>{catchphrase}</p>
+        <h3 aria-level='3'>{name}</h3>
+        <p aria-label='villager catchphrase'>{catchphrase}</p>
     </Link>
 )}
 

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Detail Component renders Detail 1`] = `
+exports[`Detail container renders Detail 1`] = `
 Array [
   <img
     alt="Kiki"
@@ -9,13 +9,13 @@ Array [
 ]
 `;
 
-exports[`Detail Component renders Detail 2`] = `
+exports[`Detail container renders Detail 2`] = `
 <h2>
   Kiki
 </h2>
 `;
 
-exports[`Detail Component renders Detail 3`] = `
+exports[`Detail container renders Detail 3`] = `
 <h3>
   kitty cat
 </h3>

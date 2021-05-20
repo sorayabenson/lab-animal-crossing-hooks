@@ -8,5 +8,7 @@ describe('App component', () => {
 
     const header = screen.getByText(`let's cross some animals!`)
     expect(header).toMatchSnapshot(); 
+
+    //check for link clickability
   });
 });
