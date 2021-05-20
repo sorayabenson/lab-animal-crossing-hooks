@@ -21,7 +21,7 @@ describe('Villager container', () => {
     afterAll(() => server.close());
 
 
-    it('renders Villagers', async () => {
+    it('renders Villagers', () => {
         render(
             <MemoryRouter>
                 <Route>
@@ -32,14 +32,14 @@ describe('Villager container', () => {
         
         screen.getByText(`Looks like someone's on their way here!`)
 
-        await waitFor(async () => {
-            const ul = await screen.findAllByRole('list', { name: 'villagers' })
+        return waitFor(() => {
+            const ul = screen.getByRole('list', { name: 'villagers' })
             expect(ul).toMatchSnapshot();
-            const li = await screen.findAllByRole('listitem', { name: 'villager' })
-            screen.findAllByRole('link');
-            screen.findAllByRole('img');
-            screen.findByRole('heading');
-            screen.findByRole({ name: 'villager catchphrase'})
+            const li = screen.getAllByRole('listitem', { name: 'villager' })
+            screen.getAllByRole('link');
+            screen.getAllByRole('img');
+            screen.getAllByRole('heading');
+            screen.getAllByRole('catchphrase', { name: 'villager catchphrase'})
             expect(li).toMatchSnapshot();
         })
     })

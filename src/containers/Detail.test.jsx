@@ -20,7 +20,7 @@ describe('Detail container', () => {
     beforeAll(() => server.listen());
     afterAll(() => server.close());
     
-    it('renders Detail', async () => {
+    it('renders Detail', () => {
         render(
             <MemoryRouter initialEntries={['/46']}>
                 <Route path='/:id'>
@@ -31,7 +31,7 @@ describe('Detail container', () => {
 
         screen.getByText(`Looks like someone's on their way here!`);
         
-        await waitFor(() => {
+        return waitFor(() => {
             const image = screen.getAllByAltText('Kiki');
             expect(image).toMatchSnapshot();            
             const name = screen.getByText('Kiki');

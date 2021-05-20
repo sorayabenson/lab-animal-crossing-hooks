@@ -1,173 +1,178 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Villager container renders Villagers 1`] = `
-Array [
-  <ul
-    aria-label="villagers"
+<ul
+  aria-label="villagers"
+>
+  <li
+    aria-label="villager"
   >
-    <li
-      aria-label="villager"
+    <a
+      class="villagerItem"
+      href="/1"
     >
-      <a
-        class="villagerItem"
-        href="/1"
+      <img
+        alt="Cyrano"
+        src="https://acnhapi.com/v1/images/villagers/1"
+      />
+      <h3
+        aria-level="3"
       >
-        <img
-          alt="Cyrano"
-          src="https://acnhapi.com/v1/images/villagers/1"
-        />
-        <h3
-          aria-level="3"
-        >
-          Cyrano
-        </h3>
-        <p
-          aria-label="villager catchphrase"
-        >
-          ah-CHOO
-        </p>
-      </a>
-    </li>
-    <li
-      aria-label="villager"
+        Cyrano
+      </h3>
+      <p
+        aria-label="villager catchphrase"
+        role="catchphrase"
+      >
+        ah-CHOO
+      </p>
+    </a>
+  </li>
+  <li
+    aria-label="villager"
+  >
+    <a
+      class="villagerItem"
+      href="/2"
     >
-      <a
-        class="villagerItem"
-        href="/2"
+      <img
+        alt="Antonio"
+        src="https://acnhapi.com/v1/images/villagers/2"
+      />
+      <h3
+        aria-level="3"
       >
-        <img
-          alt="Antonio"
-          src="https://acnhapi.com/v1/images/villagers/2"
-        />
-        <h3
-          aria-level="3"
-        >
-          Antonio
-        </h3>
-        <p
-          aria-label="villager catchphrase"
-        >
-          honk
-        </p>
-      </a>
-    </li>
-    <li
-      aria-label="villager"
+        Antonio
+      </h3>
+      <p
+        aria-label="villager catchphrase"
+        role="catchphrase"
+      >
+        honk
+      </p>
+    </a>
+  </li>
+  <li
+    aria-label="villager"
+  >
+    <a
+      class="villagerItem"
+      href="/3"
     >
-      <a
-        class="villagerItem"
-        href="/3"
+      <img
+        alt="Pango"
+        src="https://acnhapi.com/v1/images/villagers/3"
+      />
+      <h3
+        aria-level="3"
       >
-        <img
-          alt="Pango"
-          src="https://acnhapi.com/v1/images/villagers/3"
-        />
-        <h3
-          aria-level="3"
-        >
-          Pango
-        </h3>
-        <p
-          aria-label="villager catchphrase"
-        >
-          snooooof
-        </p>
-      </a>
-    </li>
-    <li
-      aria-label="villager"
+        Pango
+      </h3>
+      <p
+        aria-label="villager catchphrase"
+        role="catchphrase"
+      >
+        snooooof
+      </p>
+    </a>
+  </li>
+  <li
+    aria-label="villager"
+  >
+    <a
+      class="villagerItem"
+      href="/4"
     >
-      <a
-        class="villagerItem"
-        href="/4"
+      <img
+        alt="Anabelle"
+        src="https://acnhapi.com/v1/images/villagers/4"
+      />
+      <h3
+        aria-level="3"
       >
-        <img
-          alt="Anabelle"
-          src="https://acnhapi.com/v1/images/villagers/4"
-        />
-        <h3
-          aria-level="3"
-        >
-          Anabelle
-        </h3>
-        <p
-          aria-label="villager catchphrase"
-        >
-          snorty
-        </p>
-      </a>
-    </li>
-    <li
-      aria-label="villager"
+        Anabelle
+      </h3>
+      <p
+        aria-label="villager catchphrase"
+        role="catchphrase"
+      >
+        snorty
+      </p>
+    </a>
+  </li>
+  <li
+    aria-label="villager"
+  >
+    <a
+      class="villagerItem"
+      href="/5"
     >
-      <a
-        class="villagerItem"
-        href="/5"
+      <img
+        alt="Snooty"
+        src="https://acnhapi.com/v1/images/villagers/5"
+      />
+      <h3
+        aria-level="3"
       >
-        <img
-          alt="Snooty"
-          src="https://acnhapi.com/v1/images/villagers/5"
-        />
-        <h3
-          aria-level="3"
-        >
-          Snooty
-        </h3>
-        <p
-          aria-label="villager catchphrase"
-        >
-          sniffff
-        </p>
-      </a>
-    </li>
-    <li
-      aria-label="villager"
+        Snooty
+      </h3>
+      <p
+        aria-label="villager catchphrase"
+        role="catchphrase"
+      >
+        sniffff
+      </p>
+    </a>
+  </li>
+  <li
+    aria-label="villager"
+  >
+    <a
+      class="villagerItem"
+      href="/6"
     >
-      <a
-        class="villagerItem"
-        href="/6"
+      <img
+        alt="Annalisa"
+        src="https://acnhapi.com/v1/images/villagers/6"
+      />
+      <h3
+        aria-level="3"
       >
-        <img
-          alt="Annalisa"
-          src="https://acnhapi.com/v1/images/villagers/6"
-        />
-        <h3
-          aria-level="3"
-        >
-          Annalisa
-        </h3>
-        <p
-          aria-label="villager catchphrase"
-        >
-          gumdrop
-        </p>
-      </a>
-    </li>
-    <li
-      aria-label="villager"
+        Annalisa
+      </h3>
+      <p
+        aria-label="villager catchphrase"
+        role="catchphrase"
+      >
+        gumdrop
+      </p>
+    </a>
+  </li>
+  <li
+    aria-label="villager"
+  >
+    <a
+      class="villagerItem"
+      href="/7"
     >
-      <a
-        class="villagerItem"
-        href="/7"
+      <img
+        alt="Olaf"
+        src="https://acnhapi.com/v1/images/villagers/7"
+      />
+      <h3
+        aria-level="3"
       >
-        <img
-          alt="Olaf"
-          src="https://acnhapi.com/v1/images/villagers/7"
-        />
-        <h3
-          aria-level="3"
-        >
-          Olaf
-        </h3>
-        <p
-          aria-label="villager catchphrase"
-        >
-          whiffa
-        </p>
-      </a>
-    </li>
-  </ul>,
-]
+        Olaf
+      </h3>
+      <p
+        aria-label="villager catchphrase"
+        role="catchphrase"
+      >
+        whiffa
+      </p>
+    </a>
+  </li>
+</ul>
 `;
 
 exports[`Villager container renders Villagers 2`] = `
@@ -190,6 +195,7 @@ Array [
       </h3>
       <p
         aria-label="villager catchphrase"
+        role="catchphrase"
       >
         ah-CHOO
       </p>
@@ -213,6 +219,7 @@ Array [
       </h3>
       <p
         aria-label="villager catchphrase"
+        role="catchphrase"
       >
         honk
       </p>
@@ -236,6 +243,7 @@ Array [
       </h3>
       <p
         aria-label="villager catchphrase"
+        role="catchphrase"
       >
         snooooof
       </p>
@@ -259,6 +267,7 @@ Array [
       </h3>
       <p
         aria-label="villager catchphrase"
+        role="catchphrase"
       >
         snorty
       </p>
@@ -282,6 +291,7 @@ Array [
       </h3>
       <p
         aria-label="villager catchphrase"
+        role="catchphrase"
       >
         sniffff
       </p>
@@ -305,6 +315,7 @@ Array [
       </h3>
       <p
         aria-label="villager catchphrase"
+        role="catchphrase"
       >
         gumdrop
       </p>
@@ -328,6 +339,7 @@ Array [
       </h3>
       <p
         aria-label="villager catchphrase"
+        role="catchphrase"
       >
         whiffa
       </p>

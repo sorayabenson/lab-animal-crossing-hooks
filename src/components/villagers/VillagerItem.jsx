@@ -11,7 +11,7 @@ const VillagerItem = ({ id, image, name, catchphrase }) => {
         className={style.villagerItem}>
         <img src={image} alt={name} />
         <h3 aria-level='3'>{name}</h3>
-        <p aria-label='villager catchphrase'>{catchphrase}</p>
+        <p role='catchphrase' aria-label='villager catchphrase'>{catchphrase}</p>
     </Link>
 )}
 
