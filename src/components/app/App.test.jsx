@@ -39,13 +39,17 @@ describe('App component', () => {
       </MemoryRouter>
     );
 
-    const header = screen.getByText(`let's cross some animals!`);
+    const header = screen.getByRole('banner', { name: 'animal crossing header' });
     expect(header).toMatchSnapshot(); 
+
 
     //check for villager item for clickability
     const cyrano = await screen.findByText('Cyrano');
     userEvent.click(cyrano);
     const detailCyrano = await screen.findAllByRole('region', { name: 'villager detail' });
     expect(detailCyrano).toMatchSnapshot();
+    const villagerLink = screen.getByRole('link')
+    userEvent.click(villagerLink)
+    await screen.findByRole('list', { name: 'villagers' })
   });
 });
