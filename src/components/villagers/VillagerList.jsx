@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import VillagerItem from './VillagerItem';
+import './villager-list.css';
 
 const VillagerList = ({ villagers }) => (
     <ul aria-label='villagers'>

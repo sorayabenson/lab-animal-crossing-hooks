@@ -1,0 +1,44 @@
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    height: auto;
+}
+
+li {
+    list-style: none;
+}
+
+.villagerItem {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1a535c;
+    transition: 0.2s ease-in-out;
+}
+
+.villagerItem:hover {
+    color: #ff6b6b;
+}
+
+.villagerItem img {
+    height: 12rem;
+    width: auto;
+    border-radius: 50%;
+    box-shadow: #4ecdc4 3px 3px 1px;
+}
+
+.villagerItem h3 {
+    font-size: 2rem;
+    margin: 0;
+    margin-top: 0.2rem;
+}
+
+.villagerItem p {
+    margin: 0.2rem;
+    font-size: 1.5rem;
+}

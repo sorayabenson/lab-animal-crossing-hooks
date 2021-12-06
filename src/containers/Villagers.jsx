@@ -1,17 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Spinner from '../components/Spinner';
 import VillagerList from '../components/villagers/VillagerList';
-import { openGates } from '../services/animalCrossingApi';
+import { useVillagers } from '../hooks/villagers';
 
 const Villager = () => {
-    const [loading, setLoading] = useState(true); 
-    const [villagers, setVillagers] = useState([]);
-    
-    useEffect(() => {
-        openGates()
-            .then(villagers => setVillagers(villagers))
-            .finally(() => setLoading(false))
-    }, []);
+    const { loading, villagers } = useVillagers();
 
     if (loading) return <Spinner />
 

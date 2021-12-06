@@ -1,15 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import style from './villager-detail.css';
 
 const VillagerDetail = ({ image, name, catchphrase, personality, species, hobby, birthday }) => (
-    <section aria-label='villager'>
+    <section 
+        className={style.villager}
+        aria-label='villager detail'>
         <img src={image} alt={name} />
         <h2>{name}</h2>
-        <h3>{catchphrase}</h3>
-        <p>{personality}</p>
-        <p>{species}</p>
-        <p>{hobby}</p>
-        <p>{birthday}</p>
+        <h3>"{catchphrase}"</h3>
+        <p>personality: {personality}</p>
+        <p>species: {species}</p>
+        <p>hobby: {hobby}</p>
+        <p>birthday: {birthday}</p>
     </section>
 )
 

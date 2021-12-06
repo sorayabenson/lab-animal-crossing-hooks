@@ -1,7 +1,56 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App component renders App 1`] = `
-<h1>
-  let's cross some animals!
-</h1>
+<header
+  aria-label="animal crossing header"
+>
+  <h1>
+    let's cross some animals!
+  </h1>
+  <nav>
+    <a
+      href="/"
+    >
+      Villagers
+    </a>
+  </nav>
+</header>
+`;
+
+exports[`App component renders App 2`] = `
+Array [
+  <section
+    aria-label="villager detail"
+    class="villager"
+  >
+    <img
+      alt="Cyrano"
+      src="https://acnhapi.com/v1/images/villagers/1"
+    />
+    <h2>
+      Cyrano
+    </h2>
+    <h3>
+      "
+      ah-CHOO
+      "
+    </h3>
+    <p>
+      personality: 
+      Cranky
+    </p>
+    <p>
+      species: 
+      Anteater
+    </p>
+    <p>
+      hobby: 
+      Education
+    </p>
+    <p>
+      birthday: 
+      March 9th
+    </p>
+  </section>,
+]
 `;
